@@ -583,6 +583,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: VDWForceField
       objectReference: {fileID: 0}
+    - target: {fileID: 7109312084929353913, guid: b202f0ce7270e48dc8346af6dcd69bc7, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109312084929353913, guid: b202f0ce7270e48dc8346af6dcd69bc7, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109312084929353913, guid: b202f0ce7270e48dc8346af6dcd69bc7, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109312084929353913, guid: b202f0ce7270e48dc8346af6dcd69bc7, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
