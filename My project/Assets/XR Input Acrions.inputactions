@@ -1,0 +1,34 @@
+{
+    "name": "XR Input Acrions",
+    "maps": [
+        {
+            "name": "Snap XR Loco",
+            "id": "6cd81745-dfb5-491c-85aa-a7efd9ca3cff",
+            "actions": [
+                {
+                    "name": "Snap Turn",
+                    "type": "Value",
+                    "id": "29f80658-d1ca-4bc0-abc4-2e4d6edccad8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "65fcfc0a-88a1-4424-afb3-d9100ff11211",
+                    "path": "<XRController>{RightHand}/{Primary2DAxisClick}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Snap Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
